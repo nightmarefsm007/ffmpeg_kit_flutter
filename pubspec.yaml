@@ -20,7 +20,11 @@ flutter:
         pluginClass: FFmpegKitFlutterPlugin
 
 dependencies:
-  ffmpeg_kit_flutter_android: ^1.7.0
+  ffmpeg_kit_flutter_android:
+      git:
+        url: https://github.com/nightmarefsm007/ffmpeg_kit_flutter_android
+        ref: https
+
   ffmpeg_kit_flutter_platform_interface: ^0.2.1
 
   flutter:
