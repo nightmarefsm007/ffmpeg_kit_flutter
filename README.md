@@ -1,3 +1,46 @@
+### 🔧 How to Add `ffmpeg_kit_flutter_new` in Your `pubspec.yaml`
+
+Choose the version based on your needs:
+
+---
+
+#### ✅ **Use this if you don’t need external libs or network requests:**
+
+```yaml
+ffmpeg_kit_flutter_new:
+  git:
+    url: https://github.com/nightmarefsm007/ffmpeg_kit_flutter
+    ref: minimal
+```
+
+> 📦 **Minimal build** — includes only local features.  
+> Uses: `ffmpeg-kit-min-6.0-2.LTS.aar`  
+> ⚡ Super lightweight, **no internet access or external dependencies**.
+
+---
+
+#### 🌐 **Use this if you need network requests (e.g., streaming or downloading via URLs):**
+
+```yaml
+ffmpeg_kit_flutter_new:
+  git:
+    url: https://github.com/nightmarefsm007/ffmpeg_kit_flutter
+    ref: https
+```
+
+> 🌍 **HTTPS build** — supports all network-related FFmpeg operations.  
+> Uses: `ffmpeg-kit-https-6.0-2.LTS.aar`  
+> 💡 Ideal for streaming, downloading, or working with remote files.
+
+---
+
+⚠️ **Note:**  
+The official **full GPL builds** are **HUGE** and can significantly increase your APK size.  
+Stick to `minimal` or `https` based on your feature requirements to keep your APK **clean and optimized**.
+
+
+
+
 
 # FFmpegKit for Flutter [![pub](https://img.shields.io/badge/pub-2.0.0-blue)](https://pub.dev/packages/ffmpeg_kit_flutter_new) [![discord](https://img.shields.io/badge/discord-purple)](https://discord.gg/s2HCWep9)
 
