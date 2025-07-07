@@ -2,7 +2,7 @@
 
 Choose the version based on your needs:
 
-- **`minimal`** → No internet access or external libraries. Very small and fast. Only supports local file operations.
+- **`minimal`** → No internet access or external libraries. Very small APK size and fast. Only supports local file operations.
 - **`https`** → Minimal APK size (not huge like full GPL builds) but supports remote operations like streaming and downloading.
 
 ---
@@ -38,7 +38,7 @@ ffmpeg_kit_flutter_new:
 ---
 
 ⚠️ **Note:**  
-The official **full GPL builds** are **HUGE** and can significantly increase your APK size.  
+The **full GPL builds** are **HUGE** and can significantly increase your APK size.
 Stick to `minimal` or `https` based on your feature requirements to keep your APK **clean and optimized**.
 
 
